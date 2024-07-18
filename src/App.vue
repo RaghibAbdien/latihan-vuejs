@@ -5,6 +5,10 @@ import ClientSection from './components/ClientSection.vue';
 import CommunitySection from './components/CommunitySection.vue';
 import UnlockSection from './components/UnlockSection.vue';
 import AchievementSection from './components/AchievementSection.vue';
+import CalenderSection from './components/CalenderSection.vue';
+import CustomerSection from './components/CustomerSection.vue';
+import CommunityUpdateSection from './components/CommunityUpdateSection.vue';
+import FooterSection from './components/Footer.vue';
 
 </script>
 
@@ -19,7 +23,14 @@ import AchievementSection from './components/AchievementSection.vue';
     <CommunitySection />
     <UnlockSection />
     <AchievementSection />
+    <CalenderSection />
+    <CustomerSection />
+    <CommunityUpdateSection />
   </main>
+
+  <footer>
+    <FooterSection />
+  </footer>
 </template>
 
 <style scoped>
